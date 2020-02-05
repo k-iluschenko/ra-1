@@ -1,0 +1,33 @@
+{
+  "name": "ra-bosa-noga",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://netology-code.github.io/ra-1-k-iluschenko",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "history": "^4.7.2",
+    "npm": "^6.4.1",
+    "prop-types": "^15.6.2",
+    "rc-slider": "^8.6.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-fetch": "0.0.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}

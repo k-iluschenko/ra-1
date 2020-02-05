@@ -1,0 +1,423 @@
+html, body, #root {
+  height: 100%;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  flex-grow: 1
+}
+
+.favorites {
+  background-image: url(../img/product-card-pics/product-card__favorite-fill.png);
+  background-repeat: no-repeat;
+}
+
+.favourite-product-slider__item {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.similar-products-slider__item-pic {
+  display: block;
+  max-width: 99%;
+  max-height: 99%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+.in-stock {
+  position: relative;
+  top: -4px;
+  display: inline-block;
+  min-width: 150px;
+  height: 25px;
+  margin-left: auto;
+  padding: 5px 10px;
+  vertical-align: top;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 13px;
+  border: 1px solid #A1B3BF;
+  text-align: center;
+  border-radius: 2px;
+  color: #A1B3BF;
+}
+
+.sizes-item {
+  position: relative;
+  top: 19px;
+  left: 130px;
+  display: inline-block;
+}
+
+.sizes-item li {
+  display: inline-block;
+  list-style: none;
+  padding: 7px;
+}
+
+.overlooked-slider {
+  position: relative;
+  top: 22px;
+  right: -1px;
+  width: 995px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-item {
+  position: relative
+}
+
+.product-catalogue__product_favorite {
+  top: 37px;
+}
+
+.product-catalogue__product_favorite-chosen {
+  top: 37px;
+}
+
+.product-catalogue__pagination ul li {
+  width: 26px;
+  text-align: center;
+}
+
+.sizes-item li {
+  width: 32px;
+  text-align: center;
+}
+
+.product-list__pic img {
+  width: 39px;
+  height: 39px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.filter-active {
+  background-color: #97ABB7;
+}
+
+.sidebar__filter ul li:hover {
+  background-color: rgb(151, 151, 151);
+}
+
+.sidebar__filter ul li a:hover {
+  text-decoration: none;
+}
+
+.sidebar__filter ul li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #97ABB7;
+}
+
+.sidebar__occasion ul {
+  min-height: 50px;
+}
+
+.sidebar__season ul {
+  width: 240px;
+  min-height: 50px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  overflow: auto;
+}
+
+.sidebar__filter .filter-hidden, .sidebar__filter-sizes .filter-hidden {
+  display: none;
+}
+
+.black {
+  background-color: black;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.bardo {
+  background-color: #910802;
+}
+
+.white {
+  background-color: white;
+}
+
+.transparent {
+  background: url(../img/bg-transparent.jpg) 50% no-repeat;
+}
+
+.darkblue {
+  background-color: darkblue;
+}
+
+.red {
+  background-color: red;
+}
+
+.darkgreen {
+  background-color: darkgreen;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.beige2 {
+  background-color: #C2AC9E;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.metalic {
+  background-color: #A2A2A2;
+}
+
+.colorful {
+  background: url(../img/colorful.png) 50% no-repeat;
+}
+
+.brown {
+  background-color: brown;
+}
+
+.silver {
+  background-color: silver;
+}
+
+.blackandwhite {
+  background: linear-gradient(45deg, white 50%, black 50%);
+}
+
+.pink {
+  background-color: pink;
+}
+
+.sidebar__heel-height ul {
+  height: 95px;
+  padding-left: 1px;
+  overflow: auto;
+}
+
+.sidebar h3 {
+  padding-top: 22px;
+  padding-left: 21px;
+  padding-bottom: 15px;
+}
+
+.rc-slider-handle-1, .rc-slider-handle-2 {
+  position: absolute;
+  top: 0px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 0.5px solid rgba(0, 0, 0, 0.101987);
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16), 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16), 0px 3px 8px rgba(0, 0, 0, 0.15), 0px 3px 3px rgba(0, 0, 0, 0.05);
+  z-index: 5;
+}
+
+.rc-slider-track-1 {
+  position: absolute;
+  top: 4px;
+  left: 42px;
+  width: 105px;
+  height: 7px;
+  background: #A1B3BF;
+}
+
+.rc-slider-rail {
+  position: relative;
+  width: 236px;
+  height: 7px;
+  margin: 0 auto;
+  border-radius: 5px;
+  background: #F4F4F4;
+}
+
+.rc-slider {
+  padding-bottom: 30px;
+}
+
+.price-slider {
+  padding-top: 10px;
+}
+
+.order-done {
+  margin: 0 auto;
+}
+
+.dropped-menu__lists_three-coloumns {
+  flex: 3 1;
+}
+
+.dropped-menu {
+  height: 450px;
+}
+
+.site-path__item span {
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+}
+
+.basket-item__pic img {
+  height: auto;
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.order-process__title {
+  text-align: center;
+}
+
+.not-found {
+  margin: auto;
+  font-size: 36px;
+}
+
+.basket-dropped__product-list {
+
+  max-height: 137px;
+}
+
+  /* Absolute Center Spinner */
+  .loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+  /* Transparent Overlay */
+  .loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  /* :not(:required) hides these rules from IE9 and below */
+  .loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+  }
+  .loading:not(:required):after {
+    content: '';
+    display: block;
+    font-size: 10px;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    -webkit-animation: spinner 1500ms infinite linear;
+    -moz-animation: spinner 1500ms infinite linear;
+    -ms-animation: spinner 1500ms infinite linear;
+    -o-animation: spinner 1500ms infinite linear;
+    animation: spinner 1500ms infinite linear;
+    border-radius: 0.5em;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+  }
+  /* Animation */
+  @-webkit-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-moz-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @-o-keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes spinner {
+    0% {
+      -webkit-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }

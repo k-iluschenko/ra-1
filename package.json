@@ -2,7 +2,7 @@
   "name": "ra-bosa-noga",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://netology-code.github.io/ra-1-k-iluschenko",
+  "homepage": "https://k-iluschenko.github.io/ra-1/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "history": "^4.7.2",
